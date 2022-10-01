@@ -106,7 +106,7 @@ public class Metodos extends Arcondicionado {
 			}
 		}
 		
-		//STATUS
+		//EXIBIR STATUS
 		public void Status() {
 			if(LigadoDesligado == false)
 			{
