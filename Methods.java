@@ -110,7 +110,7 @@ public class Methods {
 				System.out.println("Marca: " + function.getBrand()); // Brand
 				System.out.println("Modelo: " + function.getModel()); // Model
 				System.out.println("Capacidade Btus : " + function.getBtus()); // BTUS capacity
-				System.out.println("Modo de Operação: " + function.getModeOp()); // operation mode
+				System.out.println("Modo de Operação: " + function.getModeOp()); // Operation mode
 				System.out.println("Temperatura: " + function.getTemperature() + "\n"); // Current temperature
 			}
 	    }
