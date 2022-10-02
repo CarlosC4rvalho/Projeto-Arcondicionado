@@ -7,7 +7,7 @@ public class Controle extends Arcondicionado {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Metodos m = new Metodos();
+		Metodos metodo = new Metodos();
 		
 		Scanner leia = new Scanner(System.in);
 		char control;
@@ -24,7 +24,7 @@ public class Controle extends Arcondicionado {
 		System.out.println("5 - Sair \n");
 		
 		
-		System.out.println("digite um Opção \n");
+		System.out.println("digite uma Opção: \n");
 		control = leia.nextLine().charAt(0);
 		
 		switch (control)
@@ -32,35 +32,35 @@ public class Controle extends Arcondicionado {
 		
 	    case '1': 
 	    	
-	    	m.LigarDesligar();
+	    	metodo.LigarDesligar();
 	    	
 	        break;
 
 	        
 	    case '2':
 	      
-	    	m.ModoOp();
+	    	metodo.ModoOp();
 	    	
 	        break;
 	        
 	        
         case '3':
 	    	
-        	m.Status();
+        	metodo.Status();
 	    	
 	    	break;
 	    
 	        
 	    case '+':
 	        
-	    	m.Aumentar();
+	    	metodo.Aumentar();
 	    	
 	        break;
 
 	        
 	     case '-':
 	       
-	    	m.Diminuir();
+	    	 metodo.Diminuir();
 	    
 	    	break;
 	    	
@@ -74,7 +74,7 @@ public class Controle extends Arcondicionado {
             break;
 		
 	    default:
-		       System.out.println("Opção invalida");
+		       System.out.println("Opção invalida\n");
 		  
 	    }
 	
