@@ -2,7 +2,7 @@ package Project;
 
 public class Arconditioning {
 
-	    //attributes
+	        //attributes
 		private String Brand, Model, Btus;
 		private int Temperature = 23;
 		private String ModeOp = "Refrigeration";
