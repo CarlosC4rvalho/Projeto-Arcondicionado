@@ -2,7 +2,7 @@ package page;
 
 public class Metodos extends Arcondicionado {
 
-	Boolean LigadoDesligado = false;
+	private Boolean LigadoDesligado = false;
 
 	// CRIANDO E INSTANCIANDO UM OBJETO
 	Arcondicionado function = new Arcondicionado();
